@@ -21,9 +21,9 @@ The APIs can be quickly tested using Swagger which is available at `http://local
 The application exposes following REST endpoint:
 * /api/v1/matrix
 
-| Request | Http Method     | Response             |
-| --------| :----- |:-------------:| -----:|
-| Matrix  `{  "matrix": [ [ 0 ]  ]}` as body | POST     | Please see below for response details |
+| Request | Http Method     | Response|
+|---------|-----------------|---------|
+| Matrix  `{  "matrix": [ [ 0 ]  ]}` as body | POST | Please see below for response details |
 
 Response
 
