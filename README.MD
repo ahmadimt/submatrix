@@ -28,9 +28,9 @@ The application exposes following REST endpoint:
 Response
 
 |Code| Response example| Condition|
-| :--------:| :------:|
+| --------| ------|
 | 200| ```{  "submatrix": {    "height": 0,    "width": 0,    "x": 0,    "y": 0  }}```| for all valid values|
 | 400 | ``` "status": 400,"message": "Empty matrix..please input some data in matrix"}```| when matrix is empty|
-|400 | ``` "status": 400,"message": "Matrix rows should contain same number of columns"}```| when the column size is varying for different rows
+|400 | ``` "status": 400,"message": "Matrix rows should contain same number of columns"}```| when the column size is varying for different rows|
 
 **_NOTE:_** I have used ```Lombok``` as for generating ```Getter, Setter and Constructors```. If plugin for it is not installed in your IDE(Eclipse or IntelliJ), please refer below link https://github.com/ahmadimt/javawithlombok
